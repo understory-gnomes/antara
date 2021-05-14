@@ -1,0 +1,33 @@
+@tailwind base;
+
+body {
+
+}
+
+main {
+  @apply w-screen ;
+}
+
+@tailwind components;
+
+.content {
+
+}
+
+.title {
+  @apply text-5xl md:text-7xl font-bold font-logo mb-12 max-w-2xl;
+}
+
+.note-body {
+  @apply font-sans text-xl max-w-2xl text-center m-auto;
+}
+
+.note-body img {
+  @apply m-auto;
+}
+
+.note-body a {
+  @apply text-purple-600 border-2 px-6 py-2 border-purple-600 w-3/4 block m-auto;
+}
+
+@tailwind utilities;
